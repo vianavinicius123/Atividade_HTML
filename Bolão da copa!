@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Placar Exato da Copa</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0b5d2a;
+    color:white;
+}
+header{
+    background:#046a38;
+    text-align:center;
+    padding:20px;
+}
+nav a{
+    color:gold;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+section{
+    max-width:900px;
+    margin:20px auto;
+    background:white;
+    color:#222;
+    padding:20px;
+    border-radius:10px;
+}
+.card{
+    background:#f4f4f4;
+    padding:15px;
+    margin:15px 0;
+    border-left:6px solid green;
+    border-radius:8px;
+}
+img{
+    width:100%;
+    border-radius:10px;
+}
+footer{
+    text-align:center;
+    padding:15px;
+    background:#046a38;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<h1>⚽ Placar Exato da Copa</h1>
+<p><strong>Resultados fictícios</strong> de grandes confrontos da Copa do Mundo.</p>
+
+<nav>
+<a href="#jogos">Jogos</a>
+<a href="#galeria">Galeria</a>
+<a href="#links">Links</a>
+</nav>
+
+</header>
+
+<!-- Seção dos jogos -->
+
+<section id="jogos">
+
+<h2 style="color:green;">Principais Jogos</h2>
+
+<div class="card">
+<h3 title="Partida 1">🇧🇷 Brasil 2 x 1 Argentina 🇦🇷</h3>
+<p><mark>Melhor jogo da rodada.</mark></p>
+</div>
+
+<div class="card">
+<h3>🇫🇷 França 1 x 1 Inglaterra 🏴</h3>
+<p><em>Partida muito equilibrada.</em></p>
+</div>
+
+<div class="card">
+<h3>🇪🇸 Espanha 3 x 2 Alemanha 🇩🇪</h3>
+<p><b>Vitória emocionante.</b></p>
+</div>
+
+<h2>Citação</h2>
+
+<blockquote>
+"O futebol é a coisa mais importante entre as menos importantes."
+</blockquote>
+
+</section>
+
+<section id="galeria">
+
+<h2>Galeria</h2>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/FIFA_World_Cup_Trophy.jpg" alt="Taça da Copa do Mundo">
+
+<br><br>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Football_iu_1996.jpg" alt="Bola de futebol">
+
+</section>
+
+<section id="links">
+
+<h2>Links úteis</h2>
+
+<p>
+<a href="#jogos">Voltar aos jogos</a>
+</p>
+
+<p>
+<a href="https://www.fifa.com" target="_blank">Site Oficial da FIFA</a>
+</p>
+
+</section>
+
+<footer>
+
+<p style="color:gold;">Desenvolvido por Contff Silva • Programação Web • 2026</p>
+
+</footer>
+
+</body>
+</html>
